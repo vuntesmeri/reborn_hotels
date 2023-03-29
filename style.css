@@ -148,14 +148,18 @@ footer p {
 @media (max-width:1200px) {
 
     .main__logo {
-        width: 40vw;
-        height: 40vw;
+        width: 35vw;
+        height: 30vw;
     }
 
     .main__info {
-        align-items: center;
+        /* justify-content: flex-end; */
         margin: auto;
         gap: 5vw
+    }
+
+    .main__text {
+        justify-content: flex-end;
     }
 
     .main__text p {
@@ -188,7 +192,7 @@ footer p {
 
     .main__text p {
         font-size: 14px;
-        width: 80vw;
+        width: 70vw;
     }
 
     .main__button-to {
