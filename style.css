@@ -94,8 +94,8 @@ hr {
     flex-direction: row;
     justify-content: space-around;
     gap: 20vw;
-    position: absolute;
-    top: 15vh;
+    position: fixed;
+    top: 200px;
     left: 6vw;
 }
 
@@ -146,60 +146,113 @@ footer p {
     margin-left: 2vw;
 }
 
-@media (max-width:1200px) {
+@media (max-width:900px) {
+
 
     .main__logo {
-        width: 35vw;
-        height: 30vw;
+        width: 40vw;
+        height: 40vw;
     }
 
     .main__info {
-        /* justify-content: flex-end; */
+        justify-content: flex-end;
         margin: auto;
         gap: 5vw
     }
 
     .main__text {
         justify-content: flex-end;
+        width: 36vw;
+
     }
 
     .main__text p {
         font-size: 2vw;
+        width: 100%;
+        text-align: justify;
     }
 
     .main__button-to {
         font-size: 2vw;
-        width: 30vw;
-
+        width: 35vw;
     }
 
     footer p {
         font-size: 12px;
     }
+
 }
 
 @media (max-width:500px) {
+    hr {
+        margin-top: -8px;
+    }
+
+    .background-1 {
+        display: none;
+    }
+
+    .background-2 {
+        display: none;
+    }
+
+    .background-3 {
+        height: 87vw;
+        width: 46vw;
+        margin-left: 0vw;
+        margin-right: -10vw;
+    }
+
+    .background-4 {
+        width: 43vw;
+        height: 32vw;
+        margin-left: -12vw;
+    }
+
+    .background-5 {
+        height: 116vw;
+        width: 72vw;
+        position: relative;
+        z-index: -1;
+        margin-left: -30vw;
+        margin-right: 0px;
+    }
+
+
     .main__info {
         gap: 10vw;
+        width: 100vw;
         flex-direction: column;
-        align-items: flex-start;
-        margin: 0;
+        align-items: center;
+        left: 0;
+        top: 130px;
+        justify-content: center;
+        justify-items: center;
+
     }
 
     .main__logo {
-        width: 50vw;
-        height: 60vw;
+        width: 40vw;
+        height: 50vw;
+    }
+
+    .main__text {
+        width: 90vw;
+        align-items: center;
+        margin: auto;
+        padding: 0px;
     }
 
     .main__text p {
         font-size: 14px;
-        width: 70vw;
+        margin: 5vw auto;
+        font-weight: 500;
+        text-align: center;
+        font-size: 16px;
     }
 
     .main__button-to {
-        font-size: 14px;
-        width: 50vw;
-
+        font-size: 16px;
     }
 
     footer p {
