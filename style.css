@@ -162,9 +162,10 @@ footer p {
         gap: 2vw
     }
 
-    /* .main__logo {
-        margin-right: 12vw;
-    } */
+    .main__logo {
+        width: 40vh;
+        height: 42vh;
+    }
 
     .main__text {
         justify-content: center;
