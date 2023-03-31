@@ -2,6 +2,9 @@ body {
     background-color: black;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -22,6 +25,7 @@ hr {
 
 .main {
     height: 80vh;
+    /* height: 100%; */
     width: 100%;
 }
 
@@ -138,21 +142,29 @@ hr {
 }
 
 footer {
+    height: 8vh;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer p {
     color: aliceblue;
     font-family: 'Inter', sans-serif;
-    font-size: 1vw;
+    font-size: 12px;
     margin-left: 2vw;
 }
 
 @media (max-width:900px) {
     .main__info {
-        gap: 5vw
+        gap: 2vw
     }
+
+    /* .main__logo {
+        margin-right: 12vw;
+    } */
 
     .main__text {
         justify-content: center;
@@ -209,8 +221,9 @@ footer p {
         margin-right: 0px;
     }
 
-    .main {
-        padding-top: 10vh;
+    .main__logo {
+        width: 25vh;
+        height: 25vh;
     }
 
     .main__info {
