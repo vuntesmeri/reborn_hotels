@@ -95,7 +95,7 @@ hr {
     justify-content: space-around;
     gap: 10vw;
     position: absolute;
-    padding: 20vh 2vw;
+    padding: 20vh 0;
     width: 100vw;
     top: 0;
     left: 0;
@@ -138,7 +138,9 @@ hr {
 }
 
 footer {
-    height: 6vh;
+    /* height: 6vh; */
+    margin: 0px;
+    padding: 0px;
 }
 
 footer p {
