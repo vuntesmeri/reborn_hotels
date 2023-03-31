@@ -159,7 +159,7 @@ footer p {
 
 @media (max-width:900px) {
     .main__info {
-        gap: 2vw
+        gap: 2vw;
     }
 
     .main__logo {
