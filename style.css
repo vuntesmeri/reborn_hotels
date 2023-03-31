@@ -138,7 +138,6 @@ hr {
 }
 
 footer {
-    /* height: 6vh; */
     margin: 0px;
     padding: 0px;
 }
@@ -208,6 +207,10 @@ footer p {
         z-index: -1;
         margin-left: -30vw;
         margin-right: 0px;
+    }
+
+    .main {
+        padding-top: 10vh;
     }
 
     .main__info {
